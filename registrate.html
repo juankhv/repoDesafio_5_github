@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>Aptitude</title>
@@ -19,16 +20,16 @@
             </div>
             <div class="navList">
                 <ul>
-                    <li>
+                    <li class="transform">
                         <a href="./somos-difrentes.html">Somos diferentes</a>
                     </li>
-                    <li>
+                    <li class="transform">
                         <a href="./como-funciona.html">¿Cómo funciona?</a>
                     </li>
-                    <li>
+                    <li class="transform">
                         <a href="./registrate.html">Regístrate</a>
                     </li>
-                    <li>
+                    <li class="transform">
                         <a href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
@@ -37,7 +38,7 @@
         </nav>
 
     <main class="pageRegistro">
-        <div class="formRegistro">
+        <div class="formRegistro wow animate__animated animate__bounceInUp animate__delay-1s">
             <form action="">
                 <h1>Regístrate</h1>
                 <input type="text" name="email" id="email" placeholder="Email" required>
@@ -52,32 +53,39 @@
         </div>
 </main>
     
-<footer class="pie">
-        <div class="grupo-1">
-            <div class="logoFooter">
-                <a href="#"><img src="img/logofooter.png" alt="Logo Aptitude footer"></a>
-            </div>
-    
-            <div class="politicas">
-                <h3>Menú</h3>
-                <p><a href="#">Términos y Condiciones</a></p>
-                <p><a href="#">Política de Privacidad</a></p>
-            </div>
-            <div class="siguenos">
-                <h3>Siguenos</h3>
-                <div class="redesContainer">
-                    
-                        <a href= "https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-                        <a href= "https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
-                        <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
-               </div>
-            </div>
-        </div>
-        <div class="grupo-2">
-            <small>&copy; 2022 <b>Aptitude.</b> - Todo los derechos reservados</small>
+  <!-- inicia footer-->
+  <footer class="pie">
+    <div class="grupo-1">
+        <div class="logoFooter">
+            <a href="#"><img src="img/logofooter.png" alt="Logo Aptitude footer"></a>
         </div>
 
-    </footer>
+        <div class="politicas">
+            <h3>Menú</h3>
+            <p><a href="#">Términos y Condiciones</a></p>
+            <p><a href="#">Política de Privacidad</a></p>
+        </div>
+        <div class="siguenos">
+            <h3>Siguenos</h3>
+            <div class="redesContainer">
+                
+                    <a href= "https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                    <a href= "https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+           </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Aptitude.</b> - Todo los derechos reservados</small>
+    </div>
+
+</footer> <!-- cierra footer-->
+</div>  <!-- cierra contenedor-->
+
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+</script>
     
 </body>
 </html>

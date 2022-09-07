@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>Aptitude</title>
@@ -18,16 +19,16 @@
         </div>
         <div class="navList">
             <ul>
-                <li>
+                <li class="transform">
                     <a href="./somos-difrentes.html">Somos diferentes</a>
                 </li>
-                <li>
+                <li class="transform">
                     <a href="./como-funciona.html">¿Cómo funciona?</a>
                 </li>
-                <li>
+                <li class="transform">
                     <a href="./registrate.html">Regístrate</a>
                 </li>
-                <li>
+                <li class="transform">
                     <a href="./contacto.html">Contacto</a>
                 </li>
             </ul>
@@ -35,8 +36,8 @@
         </div>
 
     </nav>
-    <header class="encabezado">
-        <div class="contenido"> 
+    <header class="encabezado-2 animate">
+        <div class="contenido-2"> 
             <h1>¿Qué es Aptitude?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro inventore amet iure. Dolorem enim exercitationem animi aspernatur, recusandae hic iste sit dicta expedita ipsum quaerat in unde? Adipisci iste voluptatem nulla ducimus expedita dolore cupiditate provident doloremque accusantium. Asperiores quia deserunt similique? Quos quae eius neque vero a pariatur repellat!</p>
         </div> 
@@ -45,17 +46,19 @@
         </div>
     
     </header>
-    <main class="cuerpo ">
+    <main class="cuerpo-2 ">
         <section id="somos-diferentes" class="somosDiferentes">
-            <h2>¿Qué nos hace diferentes?</h2>
-            <div class="cajaTalentos">
+            <div id="boxtitle">
+                <h2>¿Qué nos hace diferentes?</h2>
+            </div>
+            <div class="caja wow animate__animated animate__bounceInLeft animate__delay-0.5s" id="caja-1">
                 <img src="img/talentosHabilidades.png" alt="Talentos y Habilidades">
                 <h3>Talentos y Habilidades</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                   Beatae ratione velit laboriosam at? Praesentium impedit laudantium et quidem quasi recusandae ex eveniet, 
                   totam iure doloremque, dolor officia modi ipsa facere.</p>
            </div>
-           <div class="cajaResultados">
+           <div class="caja wow animate__animated animate__bounceInRight animate__delay-0.5s" id="caja-2">
                 <img src="img/resultadosImediatos.png" alt="Resultados Imediatos">
                 <h3>Resultados Inmediatos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -63,7 +66,7 @@
                    Aliquid, porro. Pariatur nemo molestias, autem vitae rem voluptatem quasi magni!</p>
            </div>
             
-           <div class="cajaSimplicidad"> 
+           <div class="caja wow animate__animated animate__bounceInLeft animate__delay-0.5s" id="caja-3"> 
                 <img src="img/simplicidad.png" alt="Simplicidad">
                 <h3>Simplicidad</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -71,7 +74,7 @@
                    accusantium quisquam tempora nisi voluptate, delectus hic natus! Numquam.</p>
             </div>
 
-           <div class="cajaPrueba">
+           <div class="caja wow animate__animated animate__bounceInRight animate__delay-0.5s" id="caja-4">
                <img src="img/pruebaSencilla.png" alt="Prueba Sencilla">
                <h3>Prueba Sencilla</h3>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -80,32 +83,40 @@
            </div>
         </section>
     </main>    
-    <footer class="piePagina">
-        <div class="grupo-1">
-            <div class="logoFooter">
-                <a href="#"><img src="img/logofooter.png" alt="Logo Aptitude footer"></a>
-            </div>
-    
-            <div class="politicas">
-                <h3>Menú</h3>
-                <p><a href="#">Términos y Condiciones</a></p>
-                <p><a href="#">Política de Privacidad</a></p>
-            </div>
-            <div class="siguenos">
-                <h3>Siguenos</h3>
-                <div class="redesContainer">
-                    
-                        <a href= "https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-                        <a href= "https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
-                        <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
-               </div>
-            </div>
-        </div>
-        <div class="grupo-2">
-            <small>&copy; 2022 <b>Aptitude.</b> - Todo los derechos reservados</small>
+  <!-- inicia footer-->
+  <footer class="pie">
+    <div class="grupo-1">
+        <div class="logoFooter">
+            <a href="#"><img src="img/logofooter.png" alt="Logo Aptitude footer"></a>
         </div>
 
-    </footer>
+        <div class="politicas">
+            <h3>Menú</h3>
+            <p><a href="#">Términos y Condiciones</a></p>
+            <p><a href="#">Política de Privacidad</a></p>
+        </div>
+        <div class="siguenos">
+            <h3>Siguenos</h3>
+            <div class="redesContainer">
+                
+                    <a href= "https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                    <a href= "https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+           </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>Aptitude.</b> - Todo los derechos reservados</small>
+    </div>
+
+</footer> <!-- cierra footer-->
+</div>  <!-- cierra contenedor-->
+
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+</script>
+
     
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>Aptitude</title>
@@ -21,16 +22,16 @@
         </div>
         <div class="navList">
             <ul>
-                <li>
+                <li class="transform">
                     <a href="./somos-difrentes.html">Somos diferentes</a>
                 </li>
-                <li>
+                <li class="transform">
                     <a href="./como-funciona.html">¿Cómo funciona?</a>
                 </li>
-                <li>
+                <li class="transform">
                     <a href="./registrate.html">Regístrate</a>
                 </li>
-                <li>
+                <li class="transform">
                     <a href="./contacto.html">Contacto</a>
                 </li>
             </ul>
@@ -39,7 +40,7 @@
     </nav>
     <!-- cierra nav -->
     <!-- inicia header-->
-    <header class="encabezado">
+    <header class="encabezado animate">
         <div class="contenido"> 
             <h1>Consigue la data que necesitas</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro inventore amet iure. Dolorem enim exercitationem animi aspernatur, recusandae hic iste sit dicta expedita ipsum quaerat in unde? Adipisci iste voluptatem nulla ducimus expedita dolore cupiditate provident doloremque accusantium. Asperiores quia deserunt similique? Quos quae eius neque vero a pariatur repellat!</p>
@@ -51,7 +52,7 @@
     <!-- cierra header -->
 
     <!-- inicia aside 1-->
-    <aside class="beneficios">
+    <aside class="beneficios wow animate__animated animate__bounceInLeft animate__delay-0.5s">
 		<img src="img/cloud.png" alt="imagen de servicio en la nuebe de Aptitude">
         <p>Servicio en la nube</p>
 		<img src="img/carrito.png" alt="imagen de implementación inmediata">
@@ -67,10 +68,10 @@
     <main class="cuerpo" id="main">
         <section class="analytics">
             <div class="cAnalytics">
-                <h2>People Analytics</h2>
+                <h2 class="wow animate__bounce">People Analytics</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ex quaerat nobis fugit, aperiam atque eum eveniet porro, placeat quisquam ratione doloremque, autem minus voluptatem velit praesentium? Distinctio, consequatur ratione.</p>
             </div>
-            <div>
+            <div class="wow animate__animated animate__bounceInRight animate__delay-0.5s">
                 <img src="img/analytics4.jpg" alt="Analitica de Aptitude">
             </div>
            
@@ -82,7 +83,7 @@
                 <p>Te invitamos a interactuar con Aptitude</p>
                 <a href="registrate.html"><input type="button" value="Regístrate"></a>
             </div>
-            <div>
+            <div class="wow animate__animated animate__bounceInRight animate__delay-0.5s">
                 <img src="img/loginMobile.png" alt="iphone con el login de Aptitude">
             </div>
            
@@ -92,7 +93,7 @@
 
     
    <!-- inicia aside 2-->
-    <aside class="personalidad">
+    <aside class="personalidad wow animate__animated animate__bounceInUp animate__delay-0.5s">
 
 		<img src="img/curioso.png" alt="imagen sobre el nivel del rasgo de personalidad curioso">
 		<img src="img/analitico.png" alt="imagen sobre el nivel del rasgo de personalidad analitico">
@@ -131,6 +132,12 @@
 
     </footer> <!-- cierra footer-->
 </div>  <!-- cierra contenedor-->
+
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+</script>
+
     
 </body>
 </html>
